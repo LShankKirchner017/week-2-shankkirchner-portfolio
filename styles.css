@@ -52,6 +52,11 @@ html {
   color: aliceblue;
 }
 
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
 @media all and (max-width: 480px) {
   .navbar {
     flex-direction: column;
