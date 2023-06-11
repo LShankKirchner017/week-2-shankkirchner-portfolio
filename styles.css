@@ -53,6 +53,12 @@ html {
 }
 
 img {
+  border-radius: 25px 25px;
+  max-width: 100%;
+  height: auto;
+}
+
+#headshot {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
