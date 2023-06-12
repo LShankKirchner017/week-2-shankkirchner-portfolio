@@ -5,6 +5,11 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+:root {
+  --background-color: #84849f;
+  --color: #333;
+}
+
 body,
 html {
   height: 30%;
@@ -27,7 +32,7 @@ img {
   height: 100%;
 
   background-position: center;
-  background-repeat: no-reoeat;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -54,20 +59,61 @@ img {
 .navbar a {
   color: rgb(45, 45, 45);
   text-decoration: none;
+  transition: color 0.3sec;
 }
 
 .navbar a:hover {
   color: aliceblue;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  font-size: 36px;
+footer {
+  background-color: var(--background-color);
+  color: var(--color);
+  padding: 4rem 1 rem;
 }
 
+footer a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: color 0.3sec;
+}
+
+footer a:hover {
+  color: cyan;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-main {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.footer-column {
+  flex-basis: 200px;
+  flex-grow: 1;
+  text-align: center;
+}
+.footer-heading {
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  display: block;
+  width: max-content;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
+.footer-bottom {
+  display: flex;
+}
+.copyright {
+  margin-right: auto;
+}
 @media all and (max-width: 480px) {
   .navbar {
     flex-direction: column;
@@ -93,5 +139,9 @@ img {
   .primary-icon {
     margin-top: 10px;
     margin-left: 10px;
+  }
+
+  .footer-main {
+    flex-direction: column;
   }
 }
