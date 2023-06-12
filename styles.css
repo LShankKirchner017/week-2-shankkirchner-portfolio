@@ -111,6 +111,7 @@ footer {
   background-color: var(--background-color);
   color: var(--color);
   padding: 4rem 1 rem;
+  margin: 15px;
 }
 
 footer a {
@@ -137,9 +138,10 @@ footer a:hover {
   flex-basis: 200px;
   flex-grow: 1;
   text-align: center;
+  padding: 5px 10px;
 }
 .footer-heading {
-  margin-bottom: 1rem;
+  margin: 10px 0;
 }
 
 .footer-link {
