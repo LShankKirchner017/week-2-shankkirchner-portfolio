@@ -3,3 +3,5 @@
 Week 2 Challenge: Professional Portfolio
 
 Project 2 Stock Photo from https://www.vecteezy.com/photo/1971012-digital-cyberspace-with-digital-data-network-connections
+
+Project 3 Stock Photo from https://www.vecteezy.com/photo/2097795-3d-illustration-of-hexagon-honeycomb-abstract-background
