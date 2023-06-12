@@ -78,6 +78,7 @@ img {
 .row {
   display: flex;
   gap: 10px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -85,10 +86,15 @@ img {
   background-color: var(--background-color2);
   padding: 1rem 0;
   flex: 1;
+  text-align: center;
+}
+
+.col-one-half {
+  flex: 2;
 }
 
 /* Footer */
-/* footer {
+footer {
   background-color: var(--background-color);
   color: var(--color);
   padding: 4rem 1 rem;
@@ -135,7 +141,7 @@ footer a:hover {
 }
 .copyright {
   margin-right: auto;
-} */
+}
 
 /* Responsive Design */
 @media all and (max-width: 768px) {
