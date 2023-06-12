@@ -20,6 +20,8 @@ img {
   border-radius: 25px 25px;
   max-width: 100%;
   height: auto;
+  margin: 25px 0;
+  padding: 15px;
 }
 
 h2 {
