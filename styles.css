@@ -22,6 +22,18 @@ img {
   height: auto;
 }
 
+h2 {
+  font-size: 18px;
+  color: var(--color);
+  text-decoration: underline;
+  transition: color 0.3sec;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: cyan;
+}
+
 /* Banner */
 .hero-image {
   background-image: linear-gradient(
@@ -69,12 +81,7 @@ img {
   color: aliceblue;
 }
 
-/* Flexbox Body & Sections */
-.container-body {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
+/* Grid */
 .row {
   display: flex;
   gap: 10px;
